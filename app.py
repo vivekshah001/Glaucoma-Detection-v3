@@ -13,7 +13,7 @@ st.set_page_config(
 # ---------------- LOAD MODEL (ONCE) ----------------
 @st.cache_resource
 def load_my_model():
-    return load_model("D:\\PROJECT\\glaucoma detection\\retinal_model_v3.keras", compile=False)
+    return load_model("retinal_model_v3.keras", compile=False)
 
 model = load_my_model()
 
